@@ -2,10 +2,17 @@
 
 ## React + Vite
 
+### Libreria Necesaria!!!
+#### npm install react-router-dom
+
 # Pagina Principal Home 
 ![Pagina Home](https://i.ibb.co/HNBsDpT/imagen-2024-12-20-225123588.png)
 #### Se pueden apreciar las *Rutas* por las cuales se acceden a las distintas partes del NavMenu contenido en el header 
 #### Cada una con un componente designado para poder utilizar de las cuales se cuenta con 3 secciones, que es Home, About, Login
+### Componente LaylaCard
+![image](https://github.com/user-attachments/assets/6347c563-770c-46f1-a6f6-2789104505ed)
+### Componente Seccion Libro Layla
+![image](https://github.com/user-attachments/assets/2ea14ed8-fdf0-4dfc-99df-d59228fad2c8)
 
 # Pagina About
 ![Pagina About](https://i.ibb.co/QQsMQ21/imagen-2024-12-20-225405566.png)
