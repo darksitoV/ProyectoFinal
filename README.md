@@ -14,3 +14,6 @@
 #### Se tiene que usar @ y su correspondiente dominio para poder ingresar al correo 
 #### Se tiene que tener una contrasena con una longitud mayor a 3
 #### De lo contrario no podria ingresar, ya que por logica su resgristro tambien seguiria esas limitantes
+
+
+![image](https://github.com/user-attachments/assets/6783e2ab-4104-4444-8467-bfddd3d76e39)
