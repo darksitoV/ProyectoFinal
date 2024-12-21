@@ -1,0 +1,26 @@
+.seccion {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.seccion-imagen {
+    max-width: 50%;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: fill;
+}
+
+.seccion-titulo {
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.seccion-descripcion {
+    font-size: 16px;
+    color: #555;
+}

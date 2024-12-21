@@ -1,0 +1,16 @@
+body {
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+    width: 100vw; /* Ancho completo de la ventana */
+    height: 100vh; /* Alto completo de la ventana */
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#root {
+    width: 100%; /* Asegúrate de que el contenedor raíz ocupe todo el ancho */
+    height: 100%; /* Asegúrate de que el contenedor raíz ocupe todo el alto */
+}

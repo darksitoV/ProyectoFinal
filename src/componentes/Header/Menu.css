@@ -1,0 +1,29 @@
+/* Estilo para el Menu - Inicio - */
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin: 0 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
+.menu-item a:hover {
+    color: #b6babd;
+}
+/* Estilo para el Menu - fin - */

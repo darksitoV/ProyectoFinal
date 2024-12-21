@@ -1,0 +1,86 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    margin: 10px;
+    margin-top: 20vh;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    background-color: #91acec;
+    color: white;
+  }
+  
+  .login-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-field {
+    margin-bottom: 15px;
+  }
+  
+  .login-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6B67E3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #5956b8;
+  }
+  
+  /* Apartado UseState - Inicia - */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  .welcome h1 {
+    color: #4A47B0;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #d72a1e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #641818;
+  }
+/* Apartado UseState - Fin - */

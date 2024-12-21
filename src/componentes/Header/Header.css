@@ -1,0 +1,11 @@
+/* Estilo para el header - Inicio - */
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header img {
+    margin-right: 10px; /* Espacio entre el logo y el menú */
+}
+/* Estilo para el header - fin - */
