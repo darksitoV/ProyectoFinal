@@ -20,4 +20,4 @@
 
 # Pagina una vez se ingresa con (Login)
 ![image](https://github.com/user-attachments/assets/6783e2ab-4104-4444-8467-bfddd3d76e39)
-#### Aqui se puede apreciar que gracias a los **States** se puede actualizar el nombre del usuario conforme se ingresa en el login
+#### Aqui se puede apreciar que gracias a los *States* se puede actualizar el nombre del usuario conforme se ingresa en el login
