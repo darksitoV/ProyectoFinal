@@ -1,12 +1,16 @@
 import React from 'react';
-// import './Seccion.css';
+import './Seccion.css';
 
 export function Seccion({ titulo, descripcion, imagenUrl }) {
     return (
         <div className="seccion">
-            <h2 className="seccion-titulo">{titulo}</h2>
-            <p className="seccion-descripcion">{descripcion}</p>
-            <img src={imagenUrl} alt={titulo} className="seccion-imagen" />
-      </div>
+            <div className="text-container">
+                <h2 className="seccion-titulo">{titulo}</h2>
+                <p className="seccion-descripcion">{descripcion}</p>
+            </div>
+            <div className="image-container">
+                <img src={imagenUrl} alt={titulo} className="seccion-imagen" />
+            </div>
+        </div>
     );
 }

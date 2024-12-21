@@ -1,26 +1,78 @@
 .seccion {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    border-radius: 15px;
     padding: 16px;
-    margin: 16px 0;
-    text-align: center;
-    background-color: #f9f9f9;
-    text-align: center;
+    margin: 50px auto;
+    background-color: #8c9cc0;
+    max-width: 680px;
+    width: 90%;
+    gap: 16px; 
+}
+
+.text-container {
+    flex: 1;
+    color: white;
+    text-align: center; 
+}
+
+.image-container {
+    flex-shrink: 0; /* Evita que la imagen se reduzca */
+    max-width: 300px; /* Ancho máximo para la imagen */
 }
 
 .seccion-imagen {
-    max-width: 50%;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .seccion-titulo {
     font-size: 24px;
     margin: 12px 0;
+    color: white;
 }
 
 .seccion-descripcion {
     font-size: 16px;
-    color: #555;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .seccion {
+        flex-direction: column; /* Los elementos se apilan verticalmente */
+        text-align: center;
+    }
+
+    .text-container {
+        text-align: center; /* Centra el texto */
+    }
+
+    .seccion-titulo {
+        font-size: 20px; 
+    }
+
+    .seccion-descripcion {
+        font-size: 14px; 
+    }
+
+    .image-container {
+        max-width: 100%; /* La imagen ocupa todo el ancho */
+    }
+}
+
+@media (max-width: 480px) {
+    .seccion {
+        padding: 12px;
+    }
+
+    .seccion-titulo {
+        font-size: 18px; 
+    }
+
+    .seccion-descripcion {
+        font-size: 12px; 
+    }
 }

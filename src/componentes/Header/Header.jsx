@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className='container'>
             <header className='header'>
-                <img src="src/componentes/Header/o.png" alt="Logo" />
+                <img src="src/componentes/Header/icon_NavMenu.webp" alt="Logo" />
                 <Menu />
             </header>
         </div>
